@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Chantry Island</title>
+<link href="https://fonts.googleapis.com/css?family=Taviraj" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/foundation.min.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBix1H3qjTWxT6vKVFOPCbrKSK1pxF2HwI"></script>
+</head>
+<body>
+	<div id="burger"><img src="images/burger.png"></div>
+	<header>
+		<nav id="topNav">
+			<ul>
+			<li><a href="booking.html">Booking</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="events.html">Events</a></li>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="donate.html">Donate</a></li>
+			<li><a href="gallery.html">Gallery</a></li>
+			<li><a href="volunteers.html">Volunteers</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	
+	<section class="row">
+
+		<article class="small-12 large-7 columns">
+			<div class="box6adjust">
+			<div class="bgBox6">
+			<h2>Contact Us</h2>
+			<hr>
+			<form id="contactform">
+			<label>Full Name</label>
+			<input type="text" id="name" name="fullname">
+			<label>Email</label>
+			<input type="email" id="email" name="electronicmail">
+			<label>Message</label>
+			<textarea rows="4" cols="50" name="comment" form="contactform">Enter Message Here...</textarea>
+			<input type="submit" value="Submit">
+			</form>
+			</div>
+			</div>
+		</article>
+
+		<article class="small-12 large-5 columns">
+			<div id="googlemap" class="bgBox6">
+				<h2>Google Maps</h2>
+				<hr>
+				<h3>Location</h3>
+				<p>86 Saugeen St. Southampton, Ontario Canada N0H 2L0</p>
+				<div class="mapcon"></div>
+				<button id="directions1" class="mapBtn hide">Map from current Location</button>
+				<p>enter an address</p>
+				<button id="directions2" class="mapBtn">submit</button>
+				<input type="text" class="address">
+				
+			</div>
+
+			<div id="altmap" class="hide bgBox6">
+				<h2>Google Maps</h2>
+				<hr>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11382.425643024124!2d-81.367836!3d44.502731!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8829cfb09f0d9f8f%3A0x1763c7a384426522!2s86+Saugeen+St%2C+Southampton%2C+ON+N0H+2L0%2C+Canada!5e0!3m2!1sen!2sca!4v1486348060832" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+				<h3>Location</h3>
+				<p>86 Saugeen St. Southampton, Ontario Canada N0H 2L0</p>
+			</div>
+		</article>
+
+		<article id="directionsCon" class="small-12 large-12 columns hide">
+			<div class="bgBox6">
+				<h2>Driving Directions</h2>
+				<hr>
+				<div id="directionsBox"></div>
+			</div>
+		</article>
+
+	</section>
+
+	<footer>
+		<h2>Book A Tour <span id="footNum">1-866-797-5862</span></h2>
+		<div id="footerspacer">
+		<ul>
+			<li><a href="booking.html">Booking</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="events.html">Events</a></li>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="donate.html">Donate</a></li>
+			<li><a href="gallery.html">Gallery</a></li>
+			<li><a href="volunteers.html">Volunteers</a></li>
+			<li><a href="#">Log in</a></li>
+		</ul>
+		<p>Marine Heritage Society - Copyright© 2017</p>
+		<a href="#"><img src="images/fb.png" alt"facebook link" class="social"></a>
+		<a href="#"><img src="images/twitter.png" alt"twitter link" class="social"></a>
+		</div>
+	</footer>
+
+<script type="text/javascript" src="js/vendor/foundation.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/map.js"></script>
+<script type="text/javascript" src="js/vendor/jquery.js"></script>
+</body>
+</html>
